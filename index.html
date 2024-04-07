@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Webstudio</title>
     <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css " integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,11 +14,12 @@
 </head>
 <body class="body">
     <header class="header">
+        <div class="container header-container">
         <a href="" class="logo">Web<span class="header-logo">studio</span></a>
         <nav class="nav">
             <ul class="nav-list">
-                <li class="nav-list-item"><a href="" class="nav-list-link">Студія</a></li>
-                <li class="nav-list-item"><a href="" class="nav-list-link">Портфоліо</a></li>
+                <li class="nav-list-item"><a href="./index.html" class="nav-list-link">Студія</a></li>
+                <li class="nav-list-item"><a href="./portfolio.html" class="nav-list-link">Портфоліо</a></li>
                 <li class="nav-list-item"><a href="" class="nav-list-link">Контакти</a></li>
             </ul>
         </nav>
@@ -26,13 +27,17 @@
             <li class="contact-list-item"><a href="" class="contact-list-link">info@devstudio.com</a></li>
             <li class="contact-list-item"><a href="" class="contact-list-link">+38 096 111 11 11</a></li>
         </ul>
+        </div>
     </header>
     <main>
         <section class="hero">
-            <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="hero-btn" data-modal-open>Замовити послугу</button>
+            <div class="container">
+                <h1 class="hero-title">Ефективні рішення для <br> вашого бізнесу</h1>
+                <button class="hero-btn" data-modal-open>Замовити послугу</button>
+            </div>
         </section>
         <section class="features">
+            <div class="container">
             <ul class="features-list">
                 <li class="features-list-item">
                     <h3 class="features-list-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -51,16 +56,20 @@
                     <p class="features-list-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
+            </div>
         </section>
         <section class="work">
+            <div class="container">
             <h2 class="work-title">Чим ми займаємося</h2>
             <ul class="work-list">
                 <li class="work-list-item"><img src="./work-img1.jpg" alt="" class="work-list-img"></li>
                 <li class="work-list-item"><img src="./work-img2.jpg" alt="" class="work-list-img"></li>
                 <li class="work-list-item"><img src="./work-img3.jpg" alt="" class="work-list-img"></li>
             </ul>
+            </div>
         </section>
         <section class="team">
+            <div class="container">
             <h2 class="team-title">Наша команда</h2>
             <ul class="team-list">
                 <li class="team-list-item">
@@ -84,17 +93,20 @@
                     <p class="team-list-text">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
+        <div class="container">
         <a href="" class="logo">Web<span class="footer-logo">studio</span></a>
         <address class="address">
             <ul class="address-list">
-                <li class="address-list-item"><a href="" class="address-list-link">м. Київ, пр-т Лесі Українки, 26</a></li>
+                <li class="address-list-item"><a href="" class="address-list-link location-link">м. Київ, пр-т Лесі Українки, 26</a></li>
                 <li class="address-list-item"><a href="" class="address-list-link">info@example.com</a></li>
                 <li class="address-list-item"><a href="" class="address-list-link">+38 096 111 11 11</a></li>
             </ul>
         </address>
+        </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
